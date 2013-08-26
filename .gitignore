@@ -1,2 +1,22 @@
-# Ignore all emacs backup files
-*~
+idea/workspace.xml
+.idea/GalloCrestCreator.iml
+*.rbc
+.DS_Store
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+.rvmrc
+*.idea
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+.project
