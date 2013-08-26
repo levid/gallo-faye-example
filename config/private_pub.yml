@@ -1,10 +1,10 @@
 development:
-  server: "http://gallo-messaging-node.herokuapp.com/faye"
+  server: "http://gallo-faye-exaample.herokuapp.com/faye"
   secret_token: "secret"
 test:
-  server: "http://gallo-messaging-node.herokuapp.com/faye"
+  server: "http://gallo-faye-exaample.herokuapp.com/faye"
   secret_token: "secret"
 production:
-  server: "http://gallo-messaging-node.herokuapp.com/faye"
+  server: "http://gallo-faye-exaample.herokuapp.com/faye"
   secret_token: "971b9ce0ad916d23a110d32e4cf1d7d67a9669ec3c28ca149fc052f1fa70c347"
   signature_expiration: 3600 # one hour
