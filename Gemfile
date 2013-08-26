@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 ruby '1.9.3'
 gem 'rake'
 gem 'faye'
+gem 'thin'
 gem 'nifty-generators'
 gem 'jquery-rails'
 
