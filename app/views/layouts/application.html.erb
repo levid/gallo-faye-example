@@ -3,10 +3,7 @@
   <head>
     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag 'jquery' %>
     <%= javascript_include_tag 'application' %>
-    <%= javascript_include_tag 'faye' %>
-    <%= javascript_include_tag 'rails' %>
     <%= csrf_meta_tag %>
     <%= yield(:head) %>
   </head>
